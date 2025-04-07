@@ -55,7 +55,7 @@ button:active {
 }
 
 #wordDisplay {
-  font-size: 48px;
+  font-size: 44px;
   color: #4682b4; /* Приглушенно синий */
   margin: 20px 0;
   font-weight: 800; /* ExtraBold */
