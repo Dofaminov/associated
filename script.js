@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Функция для запуска игры
   function startGame() {
+    endMessage.textContent = "";  // Очищаем сообщение при старте
     const selectedSpeed = document.querySelector('input[name="speed"]:checked').value;
     startButton.disabled = true;
     startButton.textContent = timeLeft;
